@@ -1,49 +1,49 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  width: 668px;
   margin: 0px auto;
   padding: 0px;
-  width: 668px;
+  font-family: "Open Sans", sans-serif;
 }
 
-#pageTitle {
+#page-title {
+  margin: 0px;
+  padding-bottom: 8px;
   color: #8f754f;
   font-weight: 800;
-  font-size: 28px;
-  margin: 0px;
-  padding-bottom: 7px;
+  font-size: 30px;
   text-align: left;
 }
 
-.infoTitle {
+.info-title {
+  padding: 0px;
+  margin: 8px 0px;
   color: #385f71;
   font-weight: 800;
   font-size: 18px;
-  padding: 0px;
-  margin: 8px 0px;
 }
 
-.educationName {
+.education-name {
+  padding: 0px;
+  margin: 0px;
   color: #8f754f;
   font-weight: 800;
   font-size: 14px;
-  padding: 0px;
-  margin: 0px;
 }
 
 aside {
   float: left;
-  background-color: #000;
   width: 258px;
-  height: 691px;
-  padding: 15px;
+  height: 701px;
+  padding: 5px 15px 15px 15px;
+  background-color: #000;
 }
 
-.asideText {
+.aside-text {
+  margin: 0px;
+  padding: 4px 20px;
   font-size: 14px;
   font-weight: 300;
   color: #fdfdfd;
-  margin: 0px;
-  padding: 4px 19px;
   line-height: 20px;
 }
 
@@ -51,34 +51,40 @@ main {
   float: right;
   width: 350px;
   height: 691px;
-  padding: 20px 0px 0px 20px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
-.mainText {
+.main-text {
+  margin: 0px;
+  padding: 0px;
   font-size: 14px;
   font-weight: 300;
   color: #385f71;
-  margin: 0px;
-  padding: 0px 0px;
   line-height: 18px;
 }
 
-ul {
-  list-style-type: circle;
-}
+ul {list-style-type: circle;}
 
-.skillList {
+#skill-list {
   list-style-position: inside;
   -webkit-column-count: 2;
-  /* Safari and Chrome */
   column-count: 2;
+  padding: 0px;
 }
 
 #photo {
   display: block;
-  width: 160px;
+  width: 170px;
   margin: 0px auto;
   padding-bottom: 5px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+a {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8f754f;
+  line-height: 20px;
+}
