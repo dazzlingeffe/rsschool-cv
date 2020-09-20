@@ -1,0 +1,90 @@
+body {
+  width: 668px;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#page-title {
+  margin: 0px;
+  padding-bottom: 8px;
+  color: #8f754f;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: left;
+}
+
+.info-title {
+  padding: 0px;
+  margin: 8px 0px;
+  color: #385f71;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.education-name {
+  padding: 0px;
+  margin: 0px;
+  color: #8f754f;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+aside {
+  float: left;
+  width: 258px;
+  height: 701px;
+  padding: 5px 15px 15px 15px;
+  background-color: #000;
+}
+
+.aside-text {
+  margin: 0px;
+  padding: 4px 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fdfdfd;
+  line-height: 20px;
+}
+
+main {
+  float: right;
+  width: 350px;
+  height: 691px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.main-text {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #385f71;
+  line-height: 18px;
+}
+
+ul {list-style-type: circle;}
+
+#skill-list {
+  list-style-position: inside;
+  -webkit-column-count: 2;
+  column-count: 2;
+  padding: 0px;
+}
+
+#photo {
+  display: block;
+  width: 170px;
+  margin: 0px auto;
+  padding-bottom: 5px;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8f754f;
+  line-height: 20px;
+}
