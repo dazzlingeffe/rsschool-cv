@@ -1,0 +1,84 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px auto;
+  padding: 0px;
+  width: 668px;
+}
+
+#pageTitle {
+  color: #8f754f;
+  font-weight: 800;
+  font-size: 28px;
+  margin: 0px;
+  padding-bottom: 7px;
+  text-align: left;
+}
+
+.infoTitle {
+  color: #385f71;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 0px;
+  margin: 8px 0px;
+}
+
+.educationName {
+  color: #8f754f;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+aside {
+  float: left;
+  background-color: #000;
+  width: 258px;
+  height: 691px;
+  padding: 15px;
+}
+
+.asideText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fdfdfd;
+  margin: 0px;
+  padding: 4px 19px;
+  line-height: 20px;
+}
+
+main {
+  float: right;
+  width: 350px;
+  height: 691px;
+  padding: 20px 0px 0px 20px;
+}
+
+.mainText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #385f71;
+  margin: 0px;
+  padding: 0px 0px;
+  line-height: 18px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.skillList {
+  list-style-position: inside;
+  -webkit-column-count: 2;
+  /* Safari and Chrome */
+  column-count: 2;
+}
+
+#photo {
+  display: block;
+  width: 160px;
+  margin: 0px auto;
+  padding-bottom: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
